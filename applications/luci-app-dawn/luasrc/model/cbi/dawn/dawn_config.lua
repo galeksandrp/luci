@@ -6,7 +6,7 @@ s:option(Value, "vht_support", "Very High Throughput Support")
 s:option(Value, "no_vht_support", "No Very High Throughput Support")
 s:option(Value, "rssi", "RSSI")
 s:option(Value, "low_rssi", "Low RSSI")
-s:option(Value, "freq", "5GHz")
+s:option(Value, "initial_score", "5GHz")
 s:option(Value, "chan_util", "Channel Utilization")
 s:option(Value, "max_chan_util", "Above Maximum Channel Utilization")
 
