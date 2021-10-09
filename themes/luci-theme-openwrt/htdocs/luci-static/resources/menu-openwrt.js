@@ -62,6 +62,7 @@ return baseclass.extend({
 				E('a', {
 					'href': L.url(url, children[i].name),
 					'click': (l == 1) ? this.handleMenuExpand : null,
+					'hover': (l == 1) ? this.handleMenuExpand : null,
 				}, [ _(children[i].title) ]),
 				this.renderMainMenu(children[i], url + '/' + children[i].name, l)
 			]));
